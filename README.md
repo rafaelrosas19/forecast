@@ -4,6 +4,8 @@
 
 The purpose of this application is to provide a five-day weather forecast for a potential traveler based on the city that they will be visiting. The user enters a city name in the search bar and the current-day weather data will be posted a long with a five-day forecast on the bottom of the page. The visited cities will be in the be saved in the local storage of the user. 
 
+https://rafaelrosas19.github.io/forecast/index.html
+
 ## Usage 
 
 Type a city name in the search bar and you will get weather information back. 
