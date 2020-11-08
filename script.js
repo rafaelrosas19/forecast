@@ -17,7 +17,7 @@ function currentWeather(city){
         var lon = response.coord.lon
 
         function currentUV() {
-            var queryURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + APIkey;
+            var queryURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + APIkey;
             $.ajax({
                 url: queryURL,
                 method: "GET"
@@ -36,7 +36,7 @@ function currentWeather(city){
 }
 
 function fiveDay(city){
-    var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=" + APIkey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=" + APIkey;
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -46,7 +46,7 @@ function fiveDay(city){
         for (var i = 1, j = 4; i < 6 && j < 60; i++ , j += 8 ){
 
             var img = response.list[j].weather[0].icon;
-            var imgURL = "http://openweathermap.org/img/wn/" + img +"@2x.png";
+            var imgURL = "https://openweathermap.org/img/wn/" + img +"@2x.png";
             
             $(".card-date-"+[i]).html("<h5>" + moment(response.list[j].dt,"X").format("LL"));
             $(".img-"+[i]).attr("src", imgURL );
