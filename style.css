@@ -1,0 +1,26 @@
+.navbar{
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom;
+}
+.btn{
+    margin-left: 10px;
+}
+.city-list{
+    background-color: rgb(241, 237, 237);
+}
+.card-deck{
+    margin-top: 10px;
+}
+.deck-heading{
+    text-align: center;
+}
+.moderate{
+    color: red;
+}
