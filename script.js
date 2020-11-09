@@ -25,7 +25,7 @@ function currentWeather(city){
                 console.log(response);
 
                 $(".uv").text("UV Index: " + response.value);
-                $(".uv").attr("class", "moderate");
+            
             })
         }
         
