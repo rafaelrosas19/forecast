@@ -6,6 +6,8 @@ The purpose of this application is to provide a five-day weather forecast for a 
 
 https://rafaelrosas19.github.io/forecast/index.html
 
+![Weather Dashboard](/weather_dashboard.png)
+
 ## Usage 
 
 Type a city name in the search bar and you will get weather information back. 
